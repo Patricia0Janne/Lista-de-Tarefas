@@ -8,7 +8,7 @@ import { IconPlus, IconSchool } from "./components/icons"
 import { SubHeading } from "./components/SubHeading"
 import { ToDoItem } from "./components/ToDoItem"
 import { ToDoList } from "./components/ToDoList"
-
+import { FaBeer } from "react-icons/fa"
 const todos = [
   {
     id: 1,
@@ -57,6 +57,7 @@ function App() {
       <Container>
         <Header>
           <Heading>
+            <FaBeer />
             <IconSchool /> Plano de estudos
           </Heading>
         </Header>
